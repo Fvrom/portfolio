@@ -1,0 +1,40 @@
+.Projects {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+.project-card {
+  height: 70rem;
+  max-width: 55rem;
+  color: rgb(29, 29, 29);
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 2rem 2rem 2rem;
+  border-radius: 2rem;
+}
+h4 {
+  font-size: 3rem;
+  width: 100%;
+  height: 3rem;
+  margin: 0rem 0rem 2rem 6rem;
+}
+.project-card h3,
+p {
+  margin: 1rem 2rem 0 1rem;
+}
+.project-card a {
+  margin: 2rem;
+  align-self: center;
+}
+
+.project-image {
+  object-fit: cover;
+  height: 50rem;
+}
