@@ -35,3 +35,9 @@ li:hover {
   text-underline-offset: 0.4rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 400px) {
+  li {
+    margin: 0;
+  }
+}

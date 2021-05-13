@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -24,4 +24,15 @@
   object-fit: contain;
   border-radius: 50%;
   margin: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .Container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image {
+    height: 30vmin;
+    width: 30vmin;
+  }
 }

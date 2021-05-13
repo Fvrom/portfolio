@@ -1,7 +1,5 @@
 .Projects {
-  height: 100vh;
-  width: 100vw;
-
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -38,7 +36,7 @@ p {
 
 .project-image {
   object-fit: cover;
-  height: 50rem;
+  height: 50vmin;
   /* border-top-left-radius: 2rem;
   border-top-right-radius: 2rem; */
   border-radius: 1rem;
