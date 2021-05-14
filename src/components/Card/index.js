@@ -1,7 +1,8 @@
 import React from "react";
 import "./card.css";
 import "./nav.css";
-import { Link } from "@reach/router";
+
+import { Link } from "react-scroll";
 
 const Card = (props) => {
   return (
@@ -19,14 +20,14 @@ const Card = (props) => {
       <nav>
         <ul>
           <li>
-            <Link className="Link" to="">
+            <Link className="Link" to="projects" smooth offset={-60}>
               Projects
             </Link>
           </li>
           <li>
-            <Link className="Link" to="">
+            <a className="Link" href="mailto:from.ida@hotmail.com">
               Contact
-            </Link>
+            </a>
           </li>
           <li>
             <a className="Link" href="https://github.com/Fvrom">

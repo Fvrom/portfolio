@@ -1,5 +1,5 @@
-import profile from "./profile.jpg";
 import { Route, BrowserRouter as Router } from "react-router-dom";
+import profile from "./assets/profile.jpg";
 import "./App.css";
 import Card from "./components/Card";
 import Project from "./components/Project";
@@ -23,6 +23,7 @@ function App() {
       <div className="Projects">
         <h4>Projects.</h4>
         <Project
+          id="projects"
           image={Event}
           title="Eventinbjudan"
           description="A project together with the class of IP Grafisk produktion & form. My role in the project was to build the website using the design provided by IP. "
