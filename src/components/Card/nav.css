@@ -7,7 +7,6 @@ ul {
   flex-direction: row;
   margin-top: 2rem;
 }
-
 li {
   font-size: 1.7rem;
   display: flex;
@@ -18,13 +17,11 @@ li {
 a {
   color: black;
 }
-
 li:hover {
   text-decoration: underline solid black;
   text-underline-offset: 0.4rem;
   cursor: pointer;
 }
-
 .Link {
   font-size: 1.7rem;
   text-decoration: none;

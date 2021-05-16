@@ -6,19 +6,11 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-.footer-container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 footer .Container {
   width: 50%;
   flex-direction: row;
   margin-top: 3rem;
 }
-
 span {
   background: black;
   height: 2.5rem;
@@ -35,21 +27,11 @@ span {
 footer h2 {
   font-size: 3rem;
 }
-
 footer a {
   font-size: 1.7rem;
   text-decoration: none;
 }
-
 footer a:hover {
   text-decoration: underline solid black;
   text-underline-offset: 0.4rem;
-}
-
-footer li {
-  align-items: flex-end;
-}
-
-footer p {
-  margin-bottom: 1rem;
 }
