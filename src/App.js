@@ -3,6 +3,7 @@ import profile from "./assets/profile.jpg";
 import "./App.css";
 import Card from "./components/Card";
 import Project from "./components/Project";
+import Footer from "./components/Footer";
 import Game from "./assets/game-mockup.png";
 import Drink from "./assets/drink-mockup.png";
 import Event from "./assets/event-mockup.png";
@@ -45,6 +46,7 @@ function App() {
           link="Github repository"
         ></Project>
       </div>
+      <Footer> </Footer>
     </>
   );
 }
