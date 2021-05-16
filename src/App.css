@@ -13,12 +13,6 @@
   flex-direction: row;
 }
 
-/*
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 .image {
   height: 30vmin;
   object-fit: contain;
@@ -34,5 +28,6 @@
   .image {
     height: 30vmin;
     width: 30vmin;
+    opacity: 0;
   }
 }

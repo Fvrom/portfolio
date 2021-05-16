@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./card.css";
 import "./nav.css";
 
 import { Link } from "react-scroll";
+import anime from "animejs/lib/anime.es.js";
 
 const Card = (props) => {
+  const card = useRef();
+  useEffect(() => {
+    anime({
+      targets: card.current,
+      translateY: [-500, 0],
+      opacity: [0, 1],
+      easing: "easeInOutExpo",
+    });
+  }, []);
+
   return (
-    <div className="card">
+    <div ref={card} className="card">
       <h2> Portfolio </h2>
       <h3> Ida From.</h3>
       <p>

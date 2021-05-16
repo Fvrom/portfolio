@@ -9,18 +9,22 @@
 .project-card {
   max-width: 55rem;
   color: rgb(29, 29, 29);
-  /* background-color: rgb(221, 221, 221); */
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 2rem 2rem 2rem;
   border-radius: 2rem;
 }
+.project-card:hover {
+  transform: scale(1.05);
+  transition: 160ms linear;
+}
+
 h4 {
   font-size: 3rem;
   width: 100%;
   height: 3rem;
-  margin: 0rem 0rem 2rem 6rem;
+  margin: 0rem 0rem 4rem 6rem;
 }
 .project-card h3,
 p {
@@ -37,7 +41,5 @@ p {
 .project-image {
   object-fit: cover;
   height: 50vmin;
-  /* border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem; */
   border-radius: 1rem;
 }
