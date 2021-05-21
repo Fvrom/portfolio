@@ -31,7 +31,7 @@ const Card = (props) => {
       <nav>
         <ul>
           <li>
-            <Link className="Link" to="projects" smooth offset={-60}>
+            <Link className="Link" to="projects" smooth offset={-80}>
               Projects
             </Link>
           </li>
