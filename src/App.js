@@ -30,7 +30,7 @@ function App() {
           id="projects"
           image={Work}
           title="Work in progress"
-          description="Currently building the website for a small event business. Using Wordpress with React"
+          description="Currently building the website for a small event business. Using Wordpress Gutenberg"
         ></Project>
         <Project
           id="projects"
